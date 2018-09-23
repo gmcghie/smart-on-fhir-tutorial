@@ -9,3 +9,5 @@ c35e6980-653f-4557-a055-69b9714cd128
 
 http://docs.smarthealthit.org/authorization/#ehr-launch-sequence
 
+pmanko@uw.edu
+

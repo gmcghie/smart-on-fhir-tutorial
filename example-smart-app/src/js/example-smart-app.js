@@ -62,7 +62,7 @@
           // var hdl = byCodes('2085-9');
           // var ldl = byCodes('2089-1');
 
-          bili = byCodes("58941-6");
+          bili = byCodes('58941-6');
 
 
           var p = defaultPatient();
@@ -158,7 +158,8 @@
     $('#gender').html(p.gender);
     $('#birthdate').html(p.birthdate);
     $('#lymph').html(p.lymph);
-    
+    $('#bili').html(p.bili);
+
     // Cerner SoF Tutorial Observations
 
     // $('#height').html(p.height);
