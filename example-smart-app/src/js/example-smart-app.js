@@ -27,7 +27,7 @@
           type: 'Observation',
           query: {
             code: {
-              $or: ['http://loinc.org|26478-8', 'http://loinc.org|2345-7']
+              $or: ['http://loinc.org|58941-6', 'http://loinc.org|2345-7']
             }
           }
         });
