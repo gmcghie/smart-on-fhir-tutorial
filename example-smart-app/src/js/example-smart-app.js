@@ -62,6 +62,8 @@
           // var hdl = byCodes('2085-9');
           // var ldl = byCodes('2089-1');
 
+          bili = byCodes("58941-6");
+
 
           var p = defaultPatient();
           p.birthdate = patient.birthDate;
@@ -71,7 +73,7 @@
 
           // Observations
           p.lymph = getQuantityValueAndUnit(lymph[0]);
-
+          p.bili = getQuantityValueAndUnit(bili[0]);
 
           // Cerner SoF Tutorial Observations
           // p.height = getQuantityValueAndUnit(height[0]);
@@ -106,7 +108,8 @@
       lname: {value: ''},
       gender: {value: ''},
       birthdate: {value: ''},
-      lymph: {value: ''}
+      lymph: {value: ''},
+      bili: {value: ''}
 
       // Cerner SoF Tutorial Observations
       // height: {value: ''},
